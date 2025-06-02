@@ -37,6 +37,11 @@ pillow
 realesrgan
 basicsr
 ```
+| Platform      | GPU Type | Command                                                                                       |
+| ------------- | -------- | --------------------------------------------------------------------------------------------- |
+| Windows/macOS | CPU Only | `pip install torch torchvision torchaudio`                                                    |
+| Windows       | NVIDIA   | `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121` |
+| Linux/macOS   | M-series | Use CPU build: `pip install torch torchvision torchaudio`                                     |
 
 > **Note:** On Windows, you may need to install `torch` with a compatible CUDA version or fallback to CPU.
 
