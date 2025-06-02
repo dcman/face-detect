@@ -1,0 +1,1 @@
+"""Main package for the face recognition system."""
